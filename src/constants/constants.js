@@ -36,24 +36,40 @@ export const projects = [
     id: 1,
     order: 100,
     mainType: "Flutter",
+    url: "https://github.com/Debajyoti14/MamaVault",
   },
   {
     title: "Socially",
     description:
       "This is a Social Media made with flutter & firebase. In this project Firebase Auth,Firebase Firestore and Firebase Storage is used to make it a realtime social media mobile Application.",
-    image: "images/jpgs/sleet.jpg",
-    imageWebp: "images/webps/sleet.webp",
+    image: "images/projects/Socially/socially.png",
+    imageWebp: "images/projects/Socially/socially.png",
     images: [
       {
-        original: "images/projects/sleet.webp",
+        original: "images/projects/Socially/socially.png",
         loading: "lazy",
-        originalAlt: "sleet",
-      }
+        originalAlt: "hex-color-4",
+      },
+      {
+        original: "images/projects/Socially/socially2.png",
+        loading: "lazy",
+        originalAlt: "hex-color-1",
+      },
+      {
+        original: "images/projects/Socially/socially3.png",
+        loading: "lazy",
+        originalAlt: "hex-color-2",
+      }, {
+        original: "images/projects/Socially/socially4.png",
+        loading: "lazy",
+        originalAlt: "hex-color-3",
+      },
     ],
     tags: ["Flutter", "Dart", "Firebase", "Provider"],
     id: 6,
     order: 98,
     mainType: "Flutter",
+    url: "https://github.com/Debajyoti14/Socially",
   },
   {
     title: "Skribble Multiplayer Game",
@@ -97,6 +113,7 @@ export const projects = [
     id: 4,
     order: 94,
     mainType: "Flutter",
+    url: "https://github.com/Debajyoti14/Skribble-Multiplayer-Game",
   },
   {
     title: "Smart Naka",
@@ -146,6 +163,7 @@ export const projects = [
     id: 7,
     order: 93,
     mainType: "Flutter",
+    url: "https://github.com/Debajyoti14/Smart-Naka"
   },
   {
     title: "BookLee",
@@ -186,6 +204,7 @@ export const projects = [
     id: 9,
     order: 91,
     mainType: "react",
+    link: "https://github.com/Rajdip019/booklee"
   },
   {
     title: "Clueless Official Website",
@@ -220,6 +239,7 @@ export const projects = [
     id: 12,
     order: 88,
     mainType: "react",
+    url: "https://github.com/Clueless-Community/clueless-official-website",
   },
 ];
 

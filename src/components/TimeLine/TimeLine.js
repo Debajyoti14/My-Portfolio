@@ -72,7 +72,7 @@ const Timeline = () => {
       <SectionDivider divider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Hi, I'm Debajyoti - I am a sophomore at Heritage Institute of Technology, Kolkata, currently undertaking my Bachelor in Computer Science and Business System 🎓.
+        Hi, I'm Debajyoti - I am a pre-final year student at Heritage Institute of Technology, Kolkata, currently undertaking my Bachelor in Computer Science and Business System 🎓.
         <br />
         <br />
 

@@ -36,7 +36,7 @@ const ProjectCard = ({ item }) => {
   const openModal = () => setIsOpen(true);
   const toggleModal = () => setIsOpen(!isOpen);
 
-  const { title, description, tags, image, imageWebp, images } =
+  const { title, description, tags, image, imageWebp, images, url } =
     item;
 
   return (
@@ -69,10 +69,12 @@ const ProjectCard = ({ item }) => {
           images={images}
         />
       </ImgContainer>
-      <TitleContent>
-        <HeaderThree title>{title}</HeaderThree>
-        <Hr />
-      </TitleContent>
+      <a href={url} target="_blank" rel="noreferrer">
+        <TitleContent>
+          <HeaderThree title>{title}</HeaderThree>
+          <Hr />
+        </TitleContent>
+      </a>
       <CardInfo className="card-info">{description}</CardInfo>
       <div className="card-footer">
         <TitleContent style={{ marginTop: "20px" }}>
