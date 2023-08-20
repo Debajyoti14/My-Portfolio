@@ -75,30 +75,30 @@ export const projects = [
     title: "Skribble Multiplayer Game",
     description:
       "This is Multiplayer Flutter app built with MongoDB, NodeJS and Socket.io. Here one player has to draw inorder to explain a certain Word where the other has to guess. Atlast the one who guesses right with time, Wins.",
-    image: "images/jpgs/React-todo-and-blog-home-1.jpg",
-    imageWebp: "images/webps/React-todo-and-blog-home-1.webp",
+    image: "images/projects/Skribble/skribble.png",
+    imageWebp: "images/projects/Skribble/skribble.png",
     images: [
       {
         original:
-          "images/projects/ReactTodoBlog/React-todo-and-blog-home-1.jpg",
+          "images/projects/Skribble/skribble1.png",
         loading: "lazy",
         originalAlt: "React-todo-and-blog-home-1",
       },
       {
         original:
-          "images/projects/ReactTodoBlog/React-todo-and-blog-blog-1.jpg",
+          "images/projects/Skribble/skribble2.png",
         loading: "lazy",
         originalAlt: "React-todo-and-blog-blog-1",
       },
       {
         original:
-          "images/projects/ReactTodoBlog/React-todo-and-blog-blog-2.jpg",
+          "images/projects/Skribble/skribble3.png",
         loading: "lazy",
         originalAlt: "React-todo-and-blog-blog-2",
       },
       {
         original:
-          "images/projects/ReactTodoBlog/React-todo-and-blog-contact.jpg",
+          "images/projects/Skribble/skribble4.png",
         loading: "lazy",
         originalAlt: "React-todo-and-blog-contact",
       },
@@ -119,8 +119,8 @@ export const projects = [
     title: "Smart Naka",
     description:
       "It is an Flutter application to facilitate police officers with Nakas in a more convenient way. With this We won Ethos - a national level hackathon oraganised by IIT Guwahati.",
-    image: "images/projects/Smart Naka/smartnaka1.jpg",
-    imageWebp: "images/projects/Smart Naka/smartnaka1.jpg",
+    image: "images/projects/Smart Naka/Smart Naka.png",
+    imageWebp: "images/projects/Smart Naka/Smart Naka.png",
     images: [
       {
         original:
