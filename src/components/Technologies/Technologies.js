@@ -31,7 +31,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Flutter, Dart, JavaScript, React, Next.js
+            Flutter, Dart, JavaScript, React, Next.js, React-Native
           </ListParagraph>
         </ListContainer>
       </ListItem>
