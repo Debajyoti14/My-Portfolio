@@ -76,15 +76,23 @@ const Timeline = () => {
         <br />
         <br />
 
-        ⚡ I'm a Tech-Enthusiast with experience in building Full-Stack Mobile & Web Applications.
+        ⚡ I'm a Tech-Enthusiast with experience in building Full-Stack Web & Mobile Applications.
+        <br />
+        <br />
+        ✨ In Web Development are NextJS, React, TypeScript, Tailwind CSS, Node JS, Express, MongoDB, AWS  ...
+        <br />
+        <br />
+        ✨ Technologies I am familiar with in App Development are Dart, Flutter, Firebase, BLoc, Provider, SQLite, Rive ...
+        <br />
+        <br />
+        ⚡ Currently I'm learning DevOps & Cloud ☁️.
 
-        ✨ Technologies I am familiar with in Flutter Development are Dart, Flutter, Firebase, BLoc, Provider, SQLite, Rive ...
 
-        In Web Development are HTML, CSS, JS, React, NextJS, Tailwind CSS, TypeScript, Node JS, Express, MongoDB, Azure CosmosDB  ...
+
         <br />
         <br />
 
-        👨‍💻 I'm also a Hackathon Enthusiast. Won a National Hackathon Organized by IIT Guwahati Coding Club - Ethos Hackathon. In the past, I have participated in Microsoft Imagine Cup 2022 and got into the top 8 positions in Education Category and also attended our first offline Hackathon Hackoverflow 4.0 where we came into the top 10 at Chandigarh University.
+        {/* 👨‍💻 I'm also a Hackathon Enthusiast. Won a National Hackathon Organized by IIT Guwahati Coding Club - Ethos Hackathon. In the past, I have participated in Microsoft Imagine Cup 2022 and got into the top 8 positions in Education Category and also attended our first offline Hackathon Hackoverflow 4.0 where we came into the top 10 at Chandigarh University. */}
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

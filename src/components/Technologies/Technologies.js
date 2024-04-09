@@ -20,7 +20,7 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with the following technologies in the App Development as well as web development world. Now I'm focused towards diving deep in App Development.
+      I've worked with the following technologies in the Web Development as well as App development world. Now I'm focused towards diving deep into DevOps & Cloud.
     </SectionText>
     <List>
       <ListItem>
@@ -31,7 +31,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Flutter, Dart, JavaScript, React, Next.js, React-Native
+            React, Next.js, Flutter, Dart, TypeScript, React-Native
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -43,7 +43,7 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Firebase, MongoDB, GCP
+            NodeJs, Rust, Firebase, MongoDB, GCP
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -55,7 +55,7 @@ const Technologies = () => (
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Figma, XD
+            Figma, Adobe XD
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -67,7 +67,7 @@ const Technologies = () => (
           <ListTitle>Other Tools</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Notion, Jira, Trello, Git
+            Notion, Git, Jira, Trello
           </ListParagraph>
         </ListContainer>
       </ListItem>
