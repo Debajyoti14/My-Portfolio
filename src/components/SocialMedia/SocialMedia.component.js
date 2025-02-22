@@ -1,5 +1,6 @@
 import { SocialContainer, SocialIcons } from "./SocialMedia.styles";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { FaTwitter } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
 
 export default function SocialMedia({ inFooter }) {
@@ -18,6 +19,13 @@ export default function SocialMedia({ inFooter }) {
         target="_blank"
         rel="noopener noreferrer">
         <AiFillLinkedin size="3rem" />
+      </SocialIcons>
+      <SocialIcons
+        href="https://x.com/debajyotis14"
+        title="Contact me on LinkedIn"
+        target="_blank"
+        rel="noopener noreferrer">
+        <FaTwitter size="3rem" />
       </SocialIcons>
       <SocialIcons
         href="mailto://debajyotisaha14@gmail.com"

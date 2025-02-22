@@ -245,7 +245,7 @@ export const projects = [
 
 export const TimeLineData = [
   { year: "Feb'24- Present", text: "Working as a SDE at ChainRisk" },
-  { year: "Nov'23- Feb'24", text: "Working as a Software Enginner at DryFi Laundries" },
+  { year: "Nov'23- Feb'24", text: "Working as a Software Enginner at DryFi" },
   { year: "Dec'22- Aug'23", text: "Working as a Flutter Dev in Yubihealth" },
   { year: "July'22- Oct'22", text: "Worked as a Full-Stack Web Developer in DocuComb" },
   { year: "May'22- July'22", text: "Frontend Developer at WeFrame.tech" },
