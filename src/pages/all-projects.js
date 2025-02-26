@@ -17,6 +17,11 @@ const AllProjects = () => {
 
   const handleFilter = (type) => {
     switch (type) {
+      case "Backend":
+        setData([...projects].filter((p) => p.mainType === "Backend"));
+        setFilterBy("Backend");
+        break;
+
       case "Flutter":
         setData([...projects].filter((p) => p.mainType === "Flutter"));
         setFilterBy("Flutter");

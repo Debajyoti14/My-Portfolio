@@ -2,7 +2,7 @@ const defaultTheme = {
   // Fonts
   fonts: {
     title: "Space Grotesk, sans-serif",
-    main: "system-ui, sans-serif"
+    main: "Inter, sans-serif"
   },
 
   // Breakpoints for responsive design
@@ -51,5 +51,5 @@ const dark = {
   },
 }
 
-export const lightTheme = {...defaultTheme, ...light};
-export const darkTheme = {...defaultTheme, ...dark};
+export const lightTheme = { ...defaultTheme, ...light };
+export const darkTheme = { ...defaultTheme, ...dark };

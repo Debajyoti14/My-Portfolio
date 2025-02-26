@@ -72,23 +72,20 @@ const Timeline = () => {
       <SectionDivider divider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Hi, I'm Debajyoti - I am a pre-final year student at Heritage Institute of Technology, Kolkata, currently undertaking my Bachelor in Computer Science and Business System 🎓.
+        <br />
+        ⚡ I'm a tech enthusiast passionate about Cloud, DevOps, and Backend Development. I have experience working with tools like Rust, AWS, Docker, Kubernetes, Terraform to build scalable and efficient systems.
         <br />
         <br />
-
-        ⚡ I'm a Tech-Enthusiast with experience in building Full-Stack Web & Mobile Applications.
+        ✨ In Backend Development, I specialize in Node.js, Express, MongoDB, and microservices architecture, ensuring robust and high-performance applications.
         <br />
         <br />
-        ✨ In Web Development are NextJS, React, TypeScript, Tailwind CSS, Node JS, Express, MongoDB, AWS  ...
+        ✨ In Web Development, I work with Next.js, React, TypeScript, and Tailwind CSS to build modern and interactive user experiences.
         <br />
         <br />
-        ✨ Technologies I am familiar with in App Development are Dart, Flutter, Firebase, BLoc, Provider, SQLite, Rive ...
-        <br />
-        <br />
-        ⚡ Currently I'm learning DevOps & Cloud ☁️.
+        ⚡ I have past experience in building Mobile Applications using Flutter, leveraging Dart, Firebase, BLoC, Provider, and SQLite for seamless cross-platform development.
 
 
-
+        <br />
         <br />
         <br />
 
@@ -109,36 +106,6 @@ const Timeline = () => {
               >
                 <CarouselItemTitle>
                   {`${item.year}`}
-                  <CarouselItemImg
-                    width="208"
-                    height="6"
-                    viewBox="0 0 208 6"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      clipRule="evenodd"
-                      d="M2.5 5.5C3.88071 5.5 5 4.38071 5 3V3.5L208 3.50002V2.50002L5 2.5V3C5 1.61929 3.88071 0.5 2.5 0.5C1.11929 0.5 0 1.61929 0 3C0 4.38071 1.11929 5.5 2.5 5.5Z"
-                      fillOpacity="0.5"
-                    />
-                    <defs>
-                      <linearGradient
-                        id="paint0_linear"
-                        x1="-4.30412e-10"
-                        y1="0.5"
-                        x2="208"
-                        y2="0.500295"
-                        gradientUnits="userSpaceOnUse"
-                      >
-                        <stop stopColor="#fff" />
-                        <stop
-                          offset="0.79478"
-                          stopColor="#fff"
-                          stopOpacity="0"
-                        />
-                      </linearGradient>
-                    </defs>
-                  </CarouselItemImg>
                 </CarouselItemTitle>
                 <CarouselItemText>{item.text}</CarouselItemText>
               </CarouselItem>

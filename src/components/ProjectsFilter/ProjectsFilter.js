@@ -1,6 +1,6 @@
 import React from "react";
 import { FilterContainer, Button, FilterHeading } from "./ProjectsFilterStyles";
-import { SiReact, SiFlutter } from "react-icons/si";
+import { SiReact, SiFlutter, SiRust } from "react-icons/si";
 
 const ProjectsFilter = ({ filter, filterBy }) => (
   <section>
@@ -15,6 +15,14 @@ const ProjectsFilter = ({ filter, filterBy }) => (
         onClick={() => filter("All")}
       >
         All
+      </Button>
+      <Button
+        type="button"
+        className={filterBy === "Backend" ? "active" : null}
+        aria-label="Filter by Backend"
+        onClick={() => filter("Backend")}
+      >
+        <SiRust />
       </Button>
       <Button
         type="button"

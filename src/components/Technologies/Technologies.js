@@ -1,6 +1,5 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
-import { AiOutlineTool } from "react-icons/ai";
+import { DiFirebase, DiReact, DiZend, DiAws } from "react-icons/di";
 import {
   Section,
   SectionDivider,
@@ -20,7 +19,7 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with the following technologies in the Web Development as well as App development world. Now I'm focused towards diving deep into DevOps & Cloud.
+      I've worked with a variety of technologies in Web Development, Mobile App Development, and Backend Development.
     </SectionText>
     <List>
       <ListItem>
@@ -49,6 +48,18 @@ const Technologies = () => (
       </ListItem>
       <ListItem>
         <picture>
+          <DiAws size="6rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Cloud & DevOps</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            AWS, GCP, Docker, Kubernetes, Terraform
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
           <DiZend size="6rem" />
         </picture>
         <ListContainer>
@@ -56,18 +67,6 @@ const Technologies = () => (
           <ListParagraph>
             Experience with <br />
             Figma, Adobe XD
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <AiOutlineTool size="5.5rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>Other Tools</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Notion, Git, Jira, Trello
           </ListParagraph>
         </ListContainer>
       </ListItem>

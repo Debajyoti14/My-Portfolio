@@ -12,7 +12,7 @@ const Header = () => {
       <Div1>
         <Link href='/'>
           <span style={{ display: 'flex', alignItems: 'center' }}>
-            Debajyoti14
+            Debajyoti
           </span>
         </Link>
       </Div1>
@@ -33,6 +33,15 @@ const Header = () => {
           <Link href={route === '/all-projects' ? "/#tech" : '#tech'}>
             <NavLink>Technologies</NavLink>
           </Link>
+        </li>
+        <li>
+          <NavLink
+            href="https://drive.google.com/file/d/145qwTcII718m-20lBVoyB5oXH5-RHWHK/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </NavLink>
         </li>
       </Div2>
       <SocialMedia />

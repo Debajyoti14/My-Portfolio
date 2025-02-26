@@ -74,8 +74,8 @@ const ProjectCard = ({ item }) => {
           <HeaderThree title>{title}</HeaderThree>
           <Hr />
         </TitleContent>
+        <CardInfo className="card-info">{description}</CardInfo>
       </a>
-      <CardInfo className="card-info">{description}</CardInfo>
       <div className="card-footer">
         <TitleContent style={{ marginTop: "20px" }}>
           <b>Stack</b>

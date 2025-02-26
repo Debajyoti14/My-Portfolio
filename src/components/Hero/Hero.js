@@ -12,8 +12,7 @@ const Hero = () => (
           I'm Debajyoti Saha
         </SectionTitle>
         <SectionText style={{ paddingBottom: 0 }}>
-          Welcome to my portfolio website. You can quickly become familiar with my projects and some general facts about me. <br />
-          Access contact links for more details and a possible collaboration.
+          Welcome to my portfolio website! Explore my projects and get to know me better. Feel free to check out my contact links for more details or potential collaborations.
         </SectionText>
       </LeftSection>
     </Section>

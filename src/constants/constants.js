@@ -1,5 +1,29 @@
 export const projects = [
   {
+    title: "FlexAuth",
+    description:
+      "Flexauth is a flexible, blazingly fast 🦀, and secure auth system that you can use for your project/company* . Need to add a specific feature as you need? Change the code as you like and deploy it on your servers.",
+    image: "images/projects/FlexAuth/flexauth1.png",
+    imageWebp: "images/projects/FlexAuth/flexauth1.png",
+    images: [
+      {
+        original: "images/projects/FlexAuth/flexauth1.png",
+        loading: "lazy",
+        originalAlt: "hex-color-1",
+      },
+      {
+        original: "images/projects/FlexAuth/flexauth2.png",
+        loading: "lazy",
+        originalAlt: "hex-color-2",
+      }
+    ],
+    tags: ["Rust", "MongoDB", "Docker", "Kubernetes"],
+    id: 1,
+    order: 100,
+    mainType: "Backend",
+    url: "https://flexauth.vercel.app",
+  },
+  {
     title: "MamaVault",
     description:
       "Mama vault is a utility management application for pregnant women. It helps you manage your documents, reach your caring ones in one tap, and keep your memories safe.",
@@ -33,7 +57,7 @@ export const projects = [
       },
     ],
     tags: ["Flutter", "Dart", "Go"],
-    id: 1,
+    id: 2,
     order: 100,
     mainType: "Flutter",
     url: "https://github.com/Debajyoti14/MamaVault",
@@ -66,7 +90,7 @@ export const projects = [
       },
     ],
     tags: ["Flutter", "Dart", "Firebase", "Provider"],
-    id: 6,
+    id: 3,
     order: 98,
     mainType: "Flutter",
     url: "https://github.com/Debajyoti14/Socially",
@@ -160,7 +184,7 @@ export const projects = [
       "AWS",
       "Yolo v5",
     ],
-    id: 7,
+    id: 5,
     order: 93,
     mainType: "Flutter",
     url: "https://github.com/Debajyoti14/Smart-Naka"
@@ -201,7 +225,7 @@ export const projects = [
       "Tailwind",
       "Sengrid",
     ],
-    id: 9,
+    id: 6,
     order: 91,
     mainType: "react",
     link: "https://github.com/Rajdip019/booklee"
@@ -236,7 +260,7 @@ export const projects = [
       "Firebase",
       "GCP",
     ],
-    id: 12,
+    id: 7,
     order: 88,
     mainType: "react",
     url: "https://github.com/Clueless-Community/clueless-official-website",
@@ -245,9 +269,9 @@ export const projects = [
 
 export const TimeLineData = [
   { year: "Feb'24- Present", text: "Working as a SDE at ChainRisk" },
-  { year: "Nov'23- Feb'24", text: "Working as a Software Enginner at DryFi" },
+  { year: "Nov'23- Feb'24", text: "Working as a Software Engineer at DryFi" },
   { year: "Dec'22- Aug'23", text: "Working as a Flutter Dev in Yubihealth" },
   { year: "July'22- Oct'22", text: "Worked as a Full-Stack Web Developer in DocuComb" },
   { year: "May'22- July'22", text: "Frontend Developer at WeFrame.tech" },
-  { year: "Feb'22- Now", text: "Co-Founded an Open-Source Community \"Clueless\" for Developers" },
+  { year: "Feb'22- Present", text: "Co-Founded an Open-Source Community \"Clueless\" for Developers" },
 ];
