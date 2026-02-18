@@ -6,7 +6,7 @@ export const ScrollToTopWrapper = styled.div`
   right: 3rem;
 
   @media ${(props) => props.theme.breakpoints.sm}{
-    bottom: 1.5.rem;
+    bottom: 1.5rem;
     right: 1.5rem;
   }
 `
@@ -22,6 +22,7 @@ export const ScrollToTopButton = styled.button`
   transition: background-color 300ms ease;
   
   &:hover{
-    background-color: #fff;
+    background-color: ${props => props.theme.colors.button};
+    svg { fill: #fff; }
   }
 `

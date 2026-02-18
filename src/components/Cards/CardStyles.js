@@ -19,6 +19,7 @@ export const PictureImg = styled.img`
   top: 0;
   height: 100%;
   width: 100%;
+  object-fit: cover;
   aspect-ratio: 3 / 2;
 `
 
@@ -35,7 +36,7 @@ export const HeaderThree = styled.h3`
   color: ${props => props.theme.colors.primary1};
   background: none;
   padding: 2rem 0 .5rem;
-  font-size: ${(props) => props.title ? '3rem' : '2rem'};
+  font-size: ${(props) => props.$title ? '3rem' : '2rem'};
   -webkit-text-fill-color: unset;
   -webkit-background-clip: unset;
 `;

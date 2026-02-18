@@ -17,3 +17,10 @@ export const FooterWrapper = styled.footer`
 export const SocialIconsContainer = styled.div`
   max-width: 1040px;
 `
+
+export const FooterText = styled.p`
+  text-align: center;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  opacity: 0.6;
+`

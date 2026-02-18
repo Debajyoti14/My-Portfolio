@@ -71,7 +71,7 @@ const ProjectCard = ({ item }) => {
       </ImgContainer>
       <a href={url} target="_blank" rel="noreferrer">
         <TitleContent>
-          <HeaderThree title>{title}</HeaderThree>
+          <HeaderThree $title>{title}</HeaderThree>
           <Hr />
         </TitleContent>
         <CardInfo className="card-info">{description}</CardInfo>

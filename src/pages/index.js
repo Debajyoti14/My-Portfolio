@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import {Layout} from '../layout/Layout';
 import {Section} from '../styles/GlobalComponents';
 // import Accomplishments from '../components/Accomplishments/Accomplishments';
@@ -10,6 +11,9 @@ import Timeline from '../components/TimeLine/TimeLine';
 const Home = () => {
   return (
     <Layout>
+      <Head>
+        <title>Debajyoti Saha | Portfolio</title>
+      </Head>
       <Section grid center>
         <Hero />
         <BgAnimation />

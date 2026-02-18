@@ -36,9 +36,15 @@ export const Div2 = styled.ul`
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    gap: 1.5rem;
+  }
+
   @media ${(props) => props.theme.breakpoints.sm} {
     justify-content: flex-end;
+    gap: 0.5rem;
+    flex-wrap: wrap;
   }
 `;
 

@@ -22,13 +22,13 @@ export default function SocialMedia({ inFooter }) {
       </SocialIcons>
       <SocialIcons
         href="https://x.com/debajyotis14"
-        title="Contact me on LinkedIn"
+        title="Follow me on X"
         target="_blank"
         rel="noopener noreferrer">
         <FaTwitter size="3rem" />
       </SocialIcons>
       <SocialIcons
-        href="mailto://debajyotisaha14@gmail.com"
+        href="mailto:debajyotisaha14@gmail.com"
         title="Send directly an email"
         target="_blank"
         rel="noopener noreferrer">

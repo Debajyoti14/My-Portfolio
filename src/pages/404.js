@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image'
 import { motion } from "framer-motion";
@@ -44,6 +45,9 @@ const NotFound = () => {
 
   return (
     <Section style={{minHeight: '100vh', justifyContent: 'center', alignItems: 'center'}}>
+      <Head>
+        <title>404 | Debajyoti Saha</title>
+      </Head>
       <motion.figure
         style={{marginBottom: '2em'}}
         animate={{ scale: 1.25 }}

@@ -8,7 +8,7 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    user-select: none;
+    user-select: auto;
   }
   html {
     font-size: 62.5%;
@@ -77,7 +77,7 @@ const GlobalStyles = createGlobalStyle`
   .image-gallery-content:not(.fullscreen) .image-gallery-slide .image-gallery-image{
     max-height: calc(80vh - 80px);
 
-    ${(props) => props.theme.breakpoints.md}{
+    @media ${(props) => props.theme.breakpoints.md}{
       max-height: 100vh;
     }
   }

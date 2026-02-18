@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { AnimateSharedLayout } from "framer-motion";
+import Head from 'next/head';
+import { LayoutGroup } from "framer-motion";
 import { Layout } from "../layout/Layout";
 import { projects } from "../constants/constants";
 import { Section, SectionDivider, PageTitle } from "../styles/GlobalComponents";
@@ -41,11 +42,14 @@ const AllProjects = () => {
 
   return (
     <Layout>
+      <Head>
+        <title>All Projects | Debajyoti Saha</title>
+      </Head>
       <Section nopadding id="projects">
         <SectionDivider divider style={{ marginBottom: 0 }} />
         <PageTitle>All My Relevant Projects</PageTitle>
         <ProjectsFilter filter={handleFilter} filterBy={filterBy} />
-        <AnimateSharedLayout>
+        <LayoutGroup>
           <GridContainer layout>
             {data
               .sort((b, a) => a.order - b.order)
@@ -53,7 +57,7 @@ const AllProjects = () => {
                 <ProjectCard item={card} key={card.id} />
               ))}
           </GridContainer>
-        </AnimateSharedLayout>
+        </LayoutGroup>
       </Section>
     </Layout>
   );

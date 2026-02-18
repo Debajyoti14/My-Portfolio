@@ -37,7 +37,15 @@ export default class MyDocument extends Document {
           />
           <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"></link>
           <link rel="icon" href="/Picture.jpg" type="image/x-icon" />
-          <title>Debajyoti Saha</title>
+          <meta name="description" content="Debajyoti Saha - Software Developer specializing in Cloud, DevOps, Backend, and Web Development. Explore my projects and get in touch." />
+          <meta name="author" content="Debajyoti Saha" />
+          <meta property="og:title" content="Debajyoti Saha | Portfolio" />
+          <meta property="og:description" content="Software Developer specializing in Cloud, DevOps, Backend, and Web Development." />
+          <meta property="og:type" content="website" />
+          <meta property="og:image" content="/Picture.jpg" />
+          <meta name="twitter:card" content="summary" />
+          <meta name="twitter:title" content="Debajyoti Saha | Portfolio" />
+          <meta name="twitter:description" content="Software Developer specializing in Cloud, DevOps, Backend, and Web Development." />
         </Head>
 
         <body>
