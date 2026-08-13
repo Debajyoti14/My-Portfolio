@@ -1,0 +1,2 @@
+@import "tailwindcss";
+@source inline("text-bg in-data-[theme=dark]:text-[#15171a]");
