@@ -24,8 +24,9 @@ export const metadata: Metadata = {
   title: 'Debajyoti Saha | Portfolio',
   description:
     'Debajyoti Saha — Software Developer specializing in Cloud, DevOps, Backend, and Web Development. Explore my projects and get in touch.',
+  // Icons come from the App Router file convention — src/app/icon.png and
+  // src/app/apple-icon.png, both generated from the hero portrait.
   authors: [{ name: 'Debajyoti Saha' }],
-  icons: { icon: '/Picture.jpg' },
   openGraph: {
     title: 'Debajyoti Saha | Portfolio',
     description: 'Software Developer specializing in Cloud, DevOps, Backend, and Web Development.',
