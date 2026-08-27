@@ -55,11 +55,11 @@ export default function Hero() {
         </div>
       </div>
 
-      <figure className="blueprint duotone aspect-[4/5] w-[min(360px,100%)] justify-self-center lg:justify-self-end">
+      <figure className="blueprint duotone aspect-4/5 w-[min(360px,100%)] justify-self-center lg:justify-self-end">
         <Corners />
         <Image
           src="/Picture.jpg"
-          alt="Debajyoti Saha"
+          alt="Portrait of Debajyoti Saha, software developer specializing in cloud, DevOps, and backend engineering"
           width={720}
           height={900}
           priority

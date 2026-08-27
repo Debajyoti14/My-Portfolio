@@ -23,7 +23,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
       <div className="duotone h-50 border-b border-divider">
         <Image
           src={project.image}
-          alt={project.title}
+          alt={`${project.title} — screenshot of the ${project.tags.join(', ')} project`}
           width={680}
           height={400}
           className="h-full w-full object-cover"
@@ -69,7 +69,7 @@ export default function Projects() {
           <div className="duotone min-h-75 border-r border-divider">
             <Image
               src={FEATURED_PROJECT.image}
-              alt={FEATURED_PROJECT.title}
+              alt={`${FEATURED_PROJECT.title} — screenshot of the ${FEATURED_PROJECT.tags.join(', ')} project`}
               width={900}
               height={600}
               className="h-full w-full object-cover"
