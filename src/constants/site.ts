@@ -15,7 +15,7 @@ export const SOCIAL = {
   email: 'mailto:debajyotisaha14@gmail.com',
   emailAddress: 'debajyotisaha14@gmail.com',
   resume:
-    'https://drive.google.com/file/d/1pY_7Mm5PQNEpBgMWzbLvZSt6JZTAdoMT/view?usp=sharing',
+    'https://drive.google.com/file/d/1qTd6LVVFRn2FL236ZHW03wqi2-Y5hMLn/view?usp=sharing',
 };
 
 export const NAV_LINKS: NavLink[] = [
