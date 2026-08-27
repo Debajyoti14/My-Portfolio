@@ -51,10 +51,3 @@ projects or work history means touching that file, not the components.
 
 All three routes prerender as static content, so any host that builds a Next.js
 app works — deploying from a git push on Vercel or Netlify needs no extra config.
-
-## Notes
-
-- The **Writing** section is built but commented out in
-  [`src/app/page.tsx`](src/app/page.tsx) until it is wired to a real blog source.
-- Expanded skill lists in the experience section were inferred from role
-  descriptions — replace them with the real ones.
