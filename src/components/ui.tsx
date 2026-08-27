@@ -70,17 +70,21 @@ export function Kicker({ children, className }: { children: ReactNode; className
   );
 }
 
-/* — section title — 38px condensed uppercase */
+/* — section title — 38px condensed uppercase.
+   Defaults to h2 (a homepage section under the hero's h1); pass as="h1" where
+   it is the page's primary heading, so every route has exactly one h1. */
 export function SectionTitle({
   children,
   className,
+  as: Tag = 'h2',
 }: {
   children: ReactNode;
   className?: string;
+  as?: 'h1' | 'h2';
 }) {
   return (
-    <h2 className={clsx('text-[38px] uppercase tracking-[-.01em] m-0 font-heading', className)}>
+    <Tag className={clsx('text-[38px] uppercase tracking-[-.01em] m-0 font-heading', className)}>
       {children}
-    </h2>
+    </Tag>
   );
 }

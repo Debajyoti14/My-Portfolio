@@ -4,7 +4,12 @@ import Header from '@/components/Header';
 import { Btn, Kicker } from '@/components/ui';
 
 export const metadata: Metadata = {
-  title: '404 | Debajyoti Saha',
+  title: 'Page not found',
+  // Error pages carry no ranking value and shouldn't compete in the index.
+  robots: { index: false, follow: true },
+  // Drop the root layout's canonical — otherwise every unknown URL would claim
+  // the homepage as its canonical, which contradicts the noindex above.
+  alternates: { canonical: null },
 };
 
 export default function NotFound() {

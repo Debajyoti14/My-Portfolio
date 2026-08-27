@@ -8,6 +8,14 @@ import type {
   WritingEntry,
 } from '@/types';
 
+/** Canonical origin. Single source of truth for metadataBase, the sitemap,
+ *  robots.txt, and the JSON-LD `@id`s — keep absolute and without a trailing
+ *  slash so `${SITE_URL}/path` composes cleanly. */
+export const SITE_URL = 'https://debajyoti.in';
+
+/** X/Twitter handle in @-form, for `twitter:creator`. */
+export const X_HANDLE = '@debajyotis14';
+
 export const SOCIAL = {
   github: 'https://github.com/Debajyoti14',
   linkedin: 'https://www.linkedin.com/in/debajyotisaha14/',
